@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "backend": {
+    "adminBaseURL": "https://your-sub2api.example.invalid",
+    "adminToken": "REPLACE_WITH_YOUR_LOCAL_TOKEN"
+  },
+  "bridge": {
+    "baseURL": "https://your-openclaw.example.invalid",
+    "token": "REPLACE_WITH_YOUR_BRIDGE_TOKEN"
+  },
+  "accounts": [
+    {
+      "name": "primary",
+      "accountID": 1,
+      "displayName": "Primary account",
+      "abbreviation": "PRI"
+    }
+  ],
+  "widget": {
+    "url": "https://your-openclaw.example.invalid"
+  },
+  "behavior": {
+    "refreshIntervalSeconds": 60,
+    "maxAccounts": 2
+  }
+}
